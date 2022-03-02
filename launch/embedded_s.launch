@@ -56,7 +56,8 @@
 
   <!-- Worker threads for the nodelet manager -->
   <arg name="num_worker_threads" default="4" />
-  <group ns="$(arg camera)">
+  <!-- <group ns="$(arg camera)"> -->
+  <group ns="markhor/$(arg camera)">
     <node pkg="astra_camera" type="camera_node" name="embedded_s">
       <!-- Parameters used to find the camera -->
       <param name="vendor" value="0x2bc5"/>
