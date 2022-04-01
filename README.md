@@ -13,6 +13,8 @@ This package supports ROS Kinetic and Melodic.
     sudo apt install ros-$ROS_DISTRO-rgbd-launch ros-$ROS_DISTRO-libuvc ros-$ROS_DISTRO-libuvc-camera ros-$ROS_DISTRO-libuvc-ros
     ```
 
+   *We assume here that you have followed the instructions associated in [Markhor](https://github.com/clubcapra/markhor)
+
 3. Create a [ROS Workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)(if you don't have one)
 	 ```sh
     mkdir -p ~/catkin_ws/src
