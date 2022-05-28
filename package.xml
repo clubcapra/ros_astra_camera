@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>astra_camera</name>
+  <name>capra_astra_camera</name>
   <version>1.0.0</version>
   <description>Drivers for Orbbec Astra Devices. </description>
   <author email="liuhua@orbbec.com">Tim Liu</author>

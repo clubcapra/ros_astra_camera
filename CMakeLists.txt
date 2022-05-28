@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(astra_camera)
+project(capra_astra_camera)
 
 find_package(catkin REQUIRED camera_info_manager dynamic_reconfigure image_transport nodelet sensor_msgs roscpp message_generation)
 
