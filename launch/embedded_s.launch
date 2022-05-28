@@ -21,12 +21,12 @@
   <arg name="depth_camera_info_url" default="" />
 
   <!-- Hardware depth registration -->
-  <arg name="depth_registration" default="true" /> <!-- Impact on performance to be compared -->
+  <arg name="depth_registration" default="false" /> <!-- Impact on performance to be compared -->
 
   <!-- Driver parameters -->
   <arg name="color_depth_synchronization"     default="false" /> 
-  <arg name="auto_exposure"                   default="true" /> <!-- Impact on performance to be compared -->
-  <arg name="auto_white_balance"              default="true" /> <!-- Impact on performance to be compared -->
+  <arg name="auto_exposure"                   default="false" /> <!-- Impact on performance to be compared -->
+  <arg name="auto_white_balance"              default="false" /> <!-- Impact on performance to be compared -->
 
   <!-- Arguments for remapping all device namespaces -->
   <arg name="rgb"              default="rgb" />
